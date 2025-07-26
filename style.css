@@ -1,0 +1,47 @@
+.formulaire{
+    margin-left: 100px;
+    width: 700px;
+    height: 300px;
+    justify-content: center;
+    
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .formulaire input{
+    width: 80%;
+    margin-bottom:5px;
+    margin: 5px auto;
+    display: block;
+}
+.formulaire input[type="text"], .formulaire input[type="password"], .formulaire input[type="date"], .formulaire select, .formulaire input[type="number"]{
+    
+    background: transparent;
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    color: black;
+    font-size: 17px;
+    margin-left: 50px;
+}
+.formulaire input[type="submit"]{
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 40px;
+    background: rgb(36, 36, 236);
+    color: white;
+    font-size: 19px;
+    border-radius: 20px;
+    padding: 1px 20px;
+    margin: 10px auto;
+}
+.formulaire input[type="submit"]:hover{
+    cursor: pointer;
+    background: green;
+}
+.mainn{
+    background-image: url(assets/img/hero-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
